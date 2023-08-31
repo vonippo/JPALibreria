@@ -21,6 +21,8 @@ public class Autor implements Serializable {
     @Column(unique = true)
     private String nombre;
     private Boolean alta;
+    private int num;
+    private String matias;
 
     public Autor() {
     }
